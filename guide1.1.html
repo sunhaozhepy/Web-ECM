@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--让用户选择游戏对待他们的方式-->
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style_game.css">
+    <title>Ball Game</title>
+</head>
+
+<body>
+    <h1 class='display-1 center'>Welcome to the ball game!</h1>
+    <h3 class='center'>Please select the attitude!</h3>
+    <br>
+    <div class='row'>
+        <!--在一行中放入两个按钮，屏幕小于等于xs时变为竖排-->
+        <div class='col-xs-12 col-xl-6 center'>
+            <button type='button' onclick='window.location.href="game.html"'
+                class='btn btn-primary btn-lg'>Normal</button>
+        </div>
+        <div class='col-xs-12 col-xl-6 center'>
+            <button type='button' onclick='window.location.href="game_mean.html"'
+                class='btn btn-primary btn-lg'>Mean</button>
+        </div>
+    </div>
+</body>
+
+</html>

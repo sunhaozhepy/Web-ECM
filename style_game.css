@@ -1,0 +1,13 @@
+.center{
+  place-items: center;
+  display: grid;
+  text-align: center;
+}
+  
+#canvas{
+  width: 100%;
+}
+
+body{
+  background-color:powderblue;
+}

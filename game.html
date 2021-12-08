@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style_game.css">
+    <title>Game start</title>
+</head>
+
+<body>
+    <div class='container-fluid p-3'>
+        <div class='row'>
+            <div class='col-6 center'>
+                <form>
+                    <label for="barlength">Bar length:</label>
+                    <select name="barlength" id="barlength">
+                        <option value='1'>Easy</option>
+                        <option value='2'>Normal</option>
+                        <option value='3'>Hard</option>
+                        <option value='4'>Nightmare</option>
+                    </select>
+                </form>
+            </div>
+            <div class='col-6 center'>
+                <form>
+                    <label for="ballspeed">Ball speed:</label>
+                    <select name="ballspeed" id="ballspeed">
+                        <option value='1'>Easy</option>
+                        <option value='2'>Normal</option>
+                        <option value='3'>Hard</option>
+                        <option value='4'>Nightmare</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+    <canvas id='canvas'></canvas>
+    <script src="game.js"></script>
+</body>
+
+</html>
